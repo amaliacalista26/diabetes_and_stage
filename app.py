@@ -92,7 +92,7 @@ if st.button("Predict Diabetes Status"):
     st.markdown("### Prediction Result")
 
     if pred == 1:
-    st.error(
+        st.error(
         f"**Diabetes Detected**\n\n"
         f"Probability of diabetes: **{prob:.2%}**"
     )
